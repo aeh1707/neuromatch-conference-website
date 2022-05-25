@@ -1,0 +1,102 @@
+/* Color Pallete
+
+#272a31
+#ec5242
+#d3d3d3 
+
+*/
+
+/* General Styles
+************************** */
+
+@font-face {
+  font-family: 'cocogoose';
+  src: url('fonts/Cocogoose.otf');
+}
+  
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 4vw;
+}
+
+.fa-bars,
+.fa-x,
+.tw {
+  width: 8vw;
+}
+
+.fa-bars {
+  margin: 20px 0 10px 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Header Styles
+************************** */
+
+
+/* Footer Styles
+************************** */
+
+
+/* Intro Section Styles
+************************** */
+
+.intro-subheading {
+  color: #ec5242;
+  font-size: 6vw;
+}
+
+h1 {
+  font-family: 'cocogoose', sans-serif;
+  font-size: 9vw;
+  color: #ec5242;
+  margin: 0 0.5rem;
+}
+
+p.time {
+  font-family: 'cocogoose', sans-serif;
+  font-size: 5.5vw;
+}
+
+.intro p {
+  margin: 0.5rem;
+}
+
+.intro {
+  background-image: url('graphics/bg.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.intro-container {
+  width: 84%;
+  margin: 0 auto;
+  min-height: 100vw;
+}
+
+
+/* Goals Section Styles
+************************** */
+
+
+/* Speakers Section Styles
+************************** */
+
+
+/* Organizers Section Styles
+************************** */
