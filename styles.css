@@ -73,6 +73,7 @@ h1 {
   font-size: 9vw;
   color: #ec5242;
   margin: 0 0.5rem;
+  filter: opacity(0.9);
 }
 
 p.time {
@@ -154,14 +155,67 @@ p.time {
 }
 
 .agenda {
-  width: 60vw;
-  margin: 15px auto;
+  width: 70vw;
+  margin: 8vw auto;
 }
 
 
 /* Speakers Section Styles
 ************************** */
 
+.speaker {
+  display: flex;
+  margin-bottom: 6vw;
+  justify-content: space-between;
+}
+
+.speaker-content {
+  width: 60vw;
+}
+
+.speaker h3 {
+  margin: 0 0 2vw;
+  font-size: 4vw;
+}
+
+.speakers h2 {
+  font-size: 5vw;
+  text-align: center;
+  margin: 6vw 0 0;
+}
+
+.speaker-img-container {
+  position: relative;
+  width: 37vw;
+  height: 25vw;
+}
+
+.brain {
+  width: 15vw;
+  position: absolute;
+  top: 2vw;
+}
+
+.speaker-img {
+  width: 25vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.speaker p {
+  margin: 2vw 0;
+}
+
+.speakers > hr {
+  margin-bottom: 8vw;
+}
+
+.speaker hr {
+  border: 1px solid #272a31;
+  margin-left: 0;
+  width: 4vw;
+}
 
 /* Organizers Section Styles
 ************************** */
