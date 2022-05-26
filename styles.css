@@ -338,3 +338,59 @@ p.time {
   padding: 8vw 0;
   text-align: center;
 }
+
+/* Featured Articles Section Styles
+************************** */
+
+.featured {
+  padding: 30px 30px 20px;
+}
+
+.featured h2 {
+  font-size: 5vw;
+  text-align: center;
+  margin: 0;
+}
+
+.featured hr {
+  margin-bottom: 6vw;
+}
+
+.featured-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+  align-items: center;
+}
+
+.featured article {
+  display: flex;
+  flex-direction: column;
+  height: 40vw;
+  color: #f2f1f1;
+  padding: 20px;
+}
+
+.featured h3 {
+  font-size: 4vw;
+}
+
+.featured time {
+  font-size: 7vw;
+}
+
+.featured p {
+  text-align: center;
+}
+
+.first-article {
+  background-image: url('graphics/article1.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.second-article {
+  background-image: url('graphics/article2.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
