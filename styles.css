@@ -308,3 +308,33 @@ p.time {
   align-items: center;
   gap: 4vw;
 }
+
+/* Our Team Section Styles
+************************** */
+
+.team {
+  padding: 30px 30px 50px;
+}
+
+.team h2 {
+  font-size: 5vw;
+  text-align: center;
+  margin: 0;
+}
+
+.team hr {
+  margin-bottom: 6vw;
+}
+
+.team-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+  justify-content: space-evenly;
+}
+
+.team article {
+  border: 1px solid #272a31;
+  padding: 8vw 0;
+  text-align: center;
+}
