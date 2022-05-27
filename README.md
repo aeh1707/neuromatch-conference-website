@@ -1,56 +1,31 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Neuromatch 4.0 Conference
 
-> Description the project.
+> This is demo website made for a neuroscince conference.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScript
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://aeh1707.github.io/capstone-neuromatch-conference/)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+## Original Design by
+👤 **Cindy Shin**
+- Behance: [@adgio07](https://www.behance.net/adagio07)
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@aeh1707](https://github.com/githubhandle)
+- Twitter: [@aeh1707](https://twitter.com/twitterhandle)
+- LinkedIn: [abdelhadi-hireche](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
