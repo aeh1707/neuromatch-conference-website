@@ -2,7 +2,7 @@
 
 #272a31
 #ec5242
-#d3d3d3 
+#d3d3d3
 
 */
 
@@ -13,7 +13,7 @@
   font-family: 'cocogoose';
   src: url('fonts/Cocogoose.otf');
 }
-  
+
 html {
   box-sizing: border-box;
 }
@@ -23,7 +23,6 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
 
 body {
   margin: 0;
@@ -85,6 +84,10 @@ ul {
   z-index: 1;
 }
 
+.footer-content li {
+  margin-bottom: 5px;
+}
+
 .mobile-view .navbar-1 {
   display: none;
 }
@@ -99,9 +102,9 @@ ul {
   margin: 10px;
 }
 
-.mobile-view .fa-x  {
+.mobile-view .fa-x {
   order: 1;
-  margin: 10px 0 30px 70vw; 
+  margin: 10px 0 30px 70vw;
 }
 
 .mobile-view .fb {
@@ -141,13 +144,20 @@ ul {
   width: 45vw;
 }
 
-.footer-content li {
-  margin-bottom: 5px;
-}
-
 .footer-content a {
   font-size: 2.5vw;
   text-decoration: none;
+}
+
+.agenda a {
+  display: inline-block;
+  color: #f2f1f1;
+  text-decoration: none;
+  font-size: 4.5vw;
+  text-align: center;
+  background-color: #ec5242;
+  padding: 4vw;
+  width: 100%;
 }
 
 .home.footer-content a {
@@ -163,7 +173,7 @@ ul {
 }
 
 .about.footer-content a {
-  color:#f2f1f1;
+  color: #f2f1f1;
 }
 
 /* Intro Section Styles
@@ -188,14 +198,14 @@ hr + p.about {
 }
 
 h1 + p.home {
-  background-color: #d3d3d3 ;
+  background-color: #d3d3d3;
   border: 2px solid white;
 }
 
 hr + p.about {
   background-color: white;
   border: 2px solid white;
-} 
+}
 
 p.time {
   font-family: 'cocogoose', sans-serif;
@@ -221,7 +231,6 @@ p.time {
   width: 84%;
   margin: 0 auto;
 }
-
 
 /* Goals Section Styles
 ************************** */
@@ -267,22 +276,10 @@ p.time {
   margin: 0 2.5vw;
 }
 
-.agenda a {
-  display: inline-block;
-  color: #f2f1f1;
-  text-decoration: none;
-  font-size: 4.5vw;
-  text-align: center;
-  background-color: #ec5242;
-  padding: 4vw;
-  width: 100%;
-}
-
 .agenda {
   width: 70vw;
   margin: 8vw auto;
 }
-
 
 /* Speakers Section Styles
 ************************** */
@@ -466,16 +463,7 @@ p.time {
   background-repeat: no-repeat;
 }
 
-.hidden {
-  display: none;
-}
-
-@media (max-width: 768px) {
-  
-}
-
 @media (min-width: 769px) {
-  
   .burger {
     display: none;
   }
@@ -498,6 +486,10 @@ p.time {
     padding: 5px 0;
   }
 
+  nav a {
+    color: #272a31;
+  }
+
   ul.socials {
     display: flex;
     width: 95px;
@@ -512,6 +504,20 @@ p.time {
     text-decoration: none;
   }
 
+  .agenda a {
+    font-size: 1.5rem;
+    padding: 25px;
+    width: 100%;
+  }
+
+  .footer-content a {
+    font-size: 1rem;
+  }
+
+  ul.settings a {
+    color: white;
+  }
+
   .nav-container a:hover {
     color: #ec5242;
   }
@@ -520,10 +526,6 @@ p.time {
     display: flex;
     width: 300px;
     gap: 15px;
-  }
-
-  ul.settings a {
-    color: white;
   }
 
   .navbar-2 {
@@ -543,10 +545,6 @@ p.time {
     padding: 12px 0;
   }
 
-  nav a {
-    color: #272a31;
-  }
-
   .logo {
     width: 200px;
   }
@@ -561,10 +559,6 @@ p.time {
 
   .footer img {
     width: 200px;
-  }
-
-  .footer-content a {
-    font-size: 1rem;
   }
 
   .home-footer-container {
@@ -589,6 +583,16 @@ p.time {
 
   p.time {
     font-size: 2rem;
+  }
+
+  .goal p {
+    text-align: center;
+    width: 150px;
+  }
+
+  .speaker p {
+    margin: 10px 0;
+    width: 200px;
   }
 
   p.time + p {
@@ -659,18 +663,6 @@ p.time {
     text-align: center;
   }
 
-  .goal p {
-    width: 200px;
-    text-align: center;
-    width: 150px;
-  }
-
-  .agenda a {
-    font-size: 1.5rem;
-    padding: 25px;
-    width: 100%;
-  }
-
   .agenda {
     width: 400px;
     margin: 2rem auto;
@@ -716,7 +708,7 @@ p.time {
     width: 130px;
     height: 140px;
   }
-  
+
   .brain {
     width: 80px;
     top: 0;
@@ -725,14 +717,9 @@ p.time {
   .speaker-content {
     width: 200px;
   }
-  
+
   .speaker-img {
     width: 100px;
-  }
-
-  .speaker p {
-    margin: 10px 0;
-    width: 200px;
   }
 
   /* Organizers Section Styles
@@ -795,5 +782,4 @@ p.time {
   .second-article {
     width: 300px;
   }
-
 }
