@@ -491,7 +491,6 @@ p.time {
   /* Header Styles
   ************************** */
 
-
   .navbar-1 {
     background-color: #272a31;
     display: flex;
@@ -511,6 +510,10 @@ p.time {
 
   .nav-container a {
     text-decoration: none;
+  }
+
+  .nav-container a:hover {
+    color: #ec5242;
   }
 
   ul.settings {
@@ -546,6 +549,11 @@ p.time {
 
   .logo {
     width: 200px;
+  }
+
+  .register {
+    padding: 5px 8px;
+    border: 4px solid #ec5242;
   }
 
   /* Footer Styles
@@ -642,6 +650,10 @@ p.time {
     margin: 0 1rem;
   }
 
+  .goal:hover {
+    border: 2px solid #ec5242;
+  }
+
   .action {
     font-size: 1.5rem;
     text-align: center;
@@ -662,6 +674,11 @@ p.time {
   .agenda {
     width: 400px;
     margin: 2rem auto;
+  }
+
+  .agenda a:hover {
+    background-color: white;
+    color: #ec5242;
   }
 
   /* Speakers Section Styles
