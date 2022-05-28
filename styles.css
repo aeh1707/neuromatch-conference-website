@@ -52,11 +52,11 @@ ul {
 }
 
 .fb {
-  width: 16px;
+  width: 10px;
 }
 
 .tw {
-  width: 25px;
+  width: 15px;
 }
 
 /* Header Styles
@@ -133,6 +133,7 @@ ul {
 
 .home-footer-container {
   display: flex;
+  color: #848486;
 }
 
 .footer img {
@@ -152,28 +153,26 @@ ul {
 .agenda a {
   display: inline-block;
   color: #f2f1f1;
-  text-decoration: none;
   font-size: 4.5vw;
   text-align: center;
-  background-color: #ec5242;
   padding: 4vw;
   width: 100%;
 }
 
 .home.footer-content a {
-  color: #272a31;
+  color: #848486;
 }
 
 /* About Footer Section Styles
 *********************************/
 
 .footer.about {
-  background: #272a31;
+  background: #2e2e2e;
   color: #f2f1f1;
 }
 
 .about.footer-content a {
-  color: #f2f1f1;
+  color: #848486;
 }
 
 /* Intro Section Styles
@@ -198,7 +197,7 @@ hr + p.about {
 }
 
 h1 + p.home {
-  background-color: #d3d3d3;
+  background-color: #f7f7f7;
   border: 2px solid white;
 }
 
@@ -238,7 +237,7 @@ p.time {
 .goals {
   background-image: url('graphics/bg-repeat.png');
   background-repeat: repeat;
-  background-size: 5vw;
+  background-size: 3vw;
   padding: 3vw;
 }
 
@@ -258,7 +257,7 @@ p.time {
 }
 
 .goal {
-  background-color: hsla(0, 0%, 83%, 0.2);
+  background-color: hsla(0, 0%, 83%, 0.1);
   display: flex;
   align-items: center;
   padding: 3vw;
@@ -284,6 +283,10 @@ p.time {
 /* Speakers Section Styles
 ************************** */
 
+.sperkers {
+  background-color: #d3d3d3;
+}
+
 .speaker {
   display: flex;
   margin-bottom: 6vw;
@@ -295,6 +298,7 @@ p.time {
 }
 
 .speaker h3 {
+  color: #393939;
   margin: 0 0 2vw;
   font-size: 4vw;
 }
@@ -332,6 +336,7 @@ p.time {
 
 .speaker p {
   margin: 2vw 0;
+  color: #393939;
 }
 
 .speakers > hr {
@@ -348,19 +353,19 @@ p.time {
 ************************** */
 
 .organizers {
-  background-color: #272a31;
-  padding: 30px 30px 50px;
+  background-color: #424047;
+  padding: 10px 20px 10px;
 }
 
 .organizers img {
-  width: 150px;
+  width: 120px;
+  opacity: 0.7;
 }
 
 .organizers h2 {
   color: #f2f1f1;
   font-size: 5vw;
   text-align: center;
-  margin: 0;
 }
 
 .organizers hr {
@@ -370,9 +375,9 @@ p.time {
 .organizers ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  gap: 4vw;
+  gap: 40px;
 }
 
 /* Our Team Section Styles
@@ -389,7 +394,16 @@ p.time {
 }
 
 .team hr {
-  margin-bottom: 6vw;
+  margin-bottom: 20px;
+}
+
+.featured p {
+  text-align: center;
+}
+
+.team hr + p {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .team-container {
@@ -444,10 +458,6 @@ p.time {
 
 .featured time {
   font-size: 7vw;
-  text-align: center;
-}
-
-.featured p {
   text-align: center;
 }
 
@@ -542,7 +552,7 @@ p.time {
   }
 
   nav ul li {
-    padding: 12px 0;
+    margin-left: 28px;
   }
 
   .logo {
@@ -550,7 +560,7 @@ p.time {
   }
 
   .register {
-    padding: 5px 8px;
+    padding: 9px 15px;
     border: 4px solid #ec5242;
   }
 
@@ -597,11 +607,12 @@ p.time {
 
   p.time + p {
     font-size: 1.5rem;
+    color: #515151;
   }
 
   .intro {
     background-image: url('graphics/bg-desktop.png');
-    min-height: 60vw;
+    min-height: 30vw;
   }
 
   .intro.about {
@@ -651,7 +662,7 @@ p.time {
     flex-direction: column;
     align-items: center;
     max-width: 180px;
-    margin: 0 1rem;
+    margin: 0 3px;
   }
 
   .goal:hover {
@@ -666,11 +677,6 @@ p.time {
   .agenda {
     width: 400px;
     margin: 2rem auto;
-  }
-
-  .agenda a:hover {
-    background-color: white;
-    color: #ec5242;
   }
 
   /* Speakers Section Styles
@@ -693,9 +699,11 @@ p.time {
 
   .speakers-container {
     display: flex;
+    justify-content: space-evenly;
+    gap: 0 30px;
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 700px;
+    max-width: 1100px;
   }
 
   .speaker-subheading {
@@ -704,7 +712,7 @@ p.time {
   }
 
   .speaker-img-container {
-    margin-right: 10px;
+    margin-right: 30px;
     width: 130px;
     height: 140px;
   }
