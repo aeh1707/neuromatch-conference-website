@@ -56,7 +56,7 @@ const speakers = [
     name: 'Dani Bassett',
     oraganization: 'University of Pennsylvania',
     bio: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.',
-  }
+  },
 ];
 
 const speakersContainer = document.querySelector('.speakers-container');
