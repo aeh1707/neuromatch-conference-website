@@ -2,7 +2,7 @@
 
 # Neuromatch 4.0 Conference
 
-> This is demo website made for a neuroscince conference.
+> This is demo website made for a neuroscince conference website, The design is inspired by @adgio07 on Behance, and the content is taken from official website, The website is built using purely HTML, CSS, JS, I followed a mobile-first apporoach when coding the website.
 
 Check out a demo explanation about this project here [Live Video Demo Explainer](https://www.loom.com/share/b6004e57094a4b9d8d0d3fedc7748026)
 
