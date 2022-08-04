@@ -14,7 +14,7 @@ Check out a demo explanation about this project here [Live Video Demo Explainer]
 
 ## Live Demo
 
-[Live Demo Link](https://aeh1707.github.io/capstone-neuromatch-conference/)
+[Live Demo Link](https://aeh1707.github.io/neuromatch-conference-website/)
 
 ## Original Design by
 👤 **Cindy Shin**
